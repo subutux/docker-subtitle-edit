@@ -14,6 +14,9 @@ RUN \
   unzip \
   tesseract-ocr \
   tesseract-ocr-eng \
+  tesseract-ocr-nld \
+  tesseract-ocr-fra \
+  libhunspell-dev \
   mono-xsp4 \
   && echo "**** install subtitleedit ****" \
   && mkdir /SubtitleEdit \
